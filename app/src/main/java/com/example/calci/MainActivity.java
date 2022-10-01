@@ -139,54 +139,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnPlus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                process = tvInput.getText().toString();
-                tvInput.setText(process + "+");
-            }
-        });
-
-        btnMinus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                process = tvInput.getText().toString();
-                tvInput.setText(process + "-");
-            }
-        });
-
-        btnMultiply.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                process = tvInput.getText().toString();
-                tvInput.setText(process + "×");
-            }
-        });
-
-        btnDivision.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                process = tvInput.getText().toString();
-                tvInput.setText(process + "÷");
-            }
-        });
-
-        btnDot.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                process = tvInput.getText().toString();
-                tvInput.setText(process + ".");
-            }
-        });
-
-        btnPercent.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                process = tvInput.getText().toString();
-                tvInput.setText(process + "%");
-            }
-        });
-
+    ///
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         btnBracket.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
